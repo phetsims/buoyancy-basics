@@ -34,9 +34,17 @@
       },
       "phet": {
         "requirejsNamespace": "BUOYANCY_BASICS",
+        "phetLibs": [
+          "density-buoyancy-common",
+          "mobius"
+        ],
+        "preload": [
+          "../sherpa/lib/poly-decomp-0.3.0.js",
+          "../sherpa/lib/p2-0.7.1.js",
+          "../sherpa/lib/three-r104.js"
+        ],
         "simulation": true,
         "runnable": true,
-        "readmeCreatedManually": true,
         "supportedBrands": [
           "phet",
           "adapted-from-phet"
@@ -71,16 +79,24 @@
   window.phet.chipper.stringRepos =
     [
       {
+        "repo": "buoyancy-basics",
+        "requirejsNamespace": "BUOYANCY_BASICS"
+      },
+      {
+        "repo": "density-buoyancy-common",
+        "requirejsNamespace": "DENSITY_BUOYANCY_COMMON"
+      },
+      {
         "repo": "joist",
         "requirejsNamespace": "JOIST"
       },
       {
-        "repo": "scenery-phet",
-        "requirejsNamespace": "SCENERY_PHET"
+        "repo": "mobius",
+        "requirejsNamespace": "MOBIUS"
       },
       {
-        "repo": "buoyancy-basics",
-        "requirejsNamespace": "BUOYANCY_BASICS"
+        "repo": "scenery-phet",
+        "requirejsNamespace": "SCENERY_PHET"
       },
       {
         "repo": "sun",
@@ -118,7 +134,10 @@
     '../sherpa/lib/base64-js-1.2.0.js',
     '../sherpa/lib/TextEncoderLite-3c9f6f0.js',
     '../tandem/js/PhetioIDUtils.js',
-    '../perennial-alias/js/common/SimVersion.js'
+    '../perennial-alias/js/common/SimVersion.js',
+    '../sherpa/lib/poly-decomp-0.3.0.js',
+    '../sherpa/lib/p2-0.7.1.js',
+    '../sherpa/lib/three-r104.js'
   ];
 
   if ( brand === 'phet-io' ) {

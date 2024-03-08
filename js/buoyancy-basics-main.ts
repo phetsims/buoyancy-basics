@@ -9,9 +9,10 @@
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import BuoyancyBasicsScreen from './buoyancy-basics/BuoyancyBasicsScreen.js';
 import BuoyancyBasicsStrings from './BuoyancyBasicsStrings.js';
-import './common/BuoyancyBasicsQueryParameters.js';
+import ExploreScreen from './explore/ExploreScreen.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
+import DensityBuoyancyCommonPreferencesNode from '../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonPreferencesNode.js';
 
 // Launch the sim. Beware that scenery Image nodes created outside simLauncher.launch() will have zero bounds
 // until the images are fully loaded. See https://github.com/phetsims/coulombs-law/issues/70#issuecomment-429037461
@@ -20,12 +21,12 @@ simLauncher.launch( () => {
   const titleStringProperty = BuoyancyBasicsStrings[ 'buoyancy-basics' ].titleStringProperty;
 
   const screens = [
-    new BuoyancyBasicsScreen( { tandem: Tandem.ROOT.createTandem( 'buoyancyBasicsScreen' ) } )
+    new ExploreScreen( Tandem.ROOT.createTandem( 'ExploreScreen' ) )
   ];
 
   const options: SimOptions = {
 
-    //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
+    //TODO fill in credits, all of these fields are optional, see joist.CreditsNode https://github.com/phetsims/buoyancy-basics/issues/3
     credits: {
       leadDesign: '',
       softwareDevelopment: '',
@@ -35,8 +36,20 @@ simLauncher.launch( () => {
       graphicArts: '',
       soundDesign: '',
       thanks: ''
-    }
+    },
+    webgl: true,
+
+    preferencesModel: new PreferencesModel( {
+      simulationOptions: {
+        customPreferences: [ {
+          createContent: tandem => new DensityBuoyancyCommonPreferencesNode( {
+            tandem: tandem.createTandem( 'simPreferences' )
+          } )
+        } ]
+      }
+    } )
   };
+
 
   const sim = new Sim( titleStringProperty, screens, options );
   sim.start();
