@@ -3,7 +3,7 @@
 /**
  * Main entry point for the sim.
  *
- * @author Aguustin Vallejo
+ * @author Agustín Vallejo (PhET Interactive Simulations)
  */
 
 import Sim, { SimOptions } from '../../joist/js/Sim.js';
