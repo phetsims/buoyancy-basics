@@ -52,5 +52,8 @@ simLauncher.launch( () => {
 
 
   const sim = new Sim( titleStringProperty, screens, options );
+  sim.isConstructionCompleteProperty.lazyLink( () => {
+    console.log( 'buoyancy basics started' ); // TODO: Remove me, just using for CT debugging, https://github.com/phetsims/density-buoyancy-common/issues/95
+  } );
   sim.start();
 } );
