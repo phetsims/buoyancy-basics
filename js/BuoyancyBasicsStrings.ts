@@ -13,7 +13,8 @@ type StringsType = {
     'titleStringProperty': LocalizedStringProperty;
   };
   'screen': {
-    'nameStringProperty': LocalizedStringProperty;
+    'exploreStringProperty': LocalizedStringProperty;
+    'compareStringProperty': LocalizedStringProperty;
   }
 };
 

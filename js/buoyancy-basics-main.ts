@@ -13,6 +13,7 @@ import BuoyancyBasicsStrings from './BuoyancyBasicsStrings.js';
 import ExploreScreen from './explore/ExploreScreen.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import DensityBuoyancyCommonPreferencesNode from '../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonPreferencesNode.js';
+import CompareScreen from './compare/CompareScreen.js';
 
 // Launch the sim. Beware that scenery Image nodes created outside simLauncher.launch() will have zero bounds
 // until the images are fully loaded. See https://github.com/phetsims/coulombs-law/issues/70#issuecomment-429037461
@@ -21,7 +22,8 @@ simLauncher.launch( () => {
   const titleStringProperty = BuoyancyBasicsStrings[ 'buoyancy-basics' ].titleStringProperty;
 
   const screens = [
-    new ExploreScreen( Tandem.ROOT.createTandem( 'ExploreScreen' ) )
+    new ExploreScreen( Tandem.ROOT.createTandem( 'ExploreScreen' ) ),
+    new CompareScreen( Tandem.ROOT.createTandem( 'ExploreScreen' ) )
   ];
 
   const options: SimOptions = {

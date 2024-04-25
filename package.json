@@ -26,11 +26,14 @@
       "phet",
       "adapted-from-phet"
     ],
-
     "supportsOutputJS": true,
     "simFeatures": {
       "supportsDynamicLocale": true
-    }
+    },
+    "screenNameKeys": [
+      "BUOYANCY_BASICS/screen.explore",
+      "BUOYANCY_BASICS/screen.compare"
+    ]
   },
   "eslintConfig": {
     "extends": "../chipper/eslint/sim_eslintrc.js",
