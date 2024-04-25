@@ -14,7 +14,6 @@ import BuoyancyBasicsCompareModel from '../../../density-buoyancy-common/js/buoy
 import BuoyancyBasicsCompareScreenView from '../../../density-buoyancy-common/js/buoyancy-basics/view/BuoyancyBasicsCompareScreenView.js';
 import BuoyancyBasicsStrings from '../BuoyancyBasicsStrings.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
-import BuoyancyBasicsExploreScreenView from '../../../density-buoyancy-common/js/buoyancy-basics/view/BuoyancyBasicsExploreScreenView.js';
 
 export default class CompareScreen extends Screen<BuoyancyBasicsCompareModel, BuoyancyBasicsCompareScreenView> {
   public constructor( tandem: Tandem ) {
@@ -28,7 +27,7 @@ export default class CompareScreen extends Screen<BuoyancyBasicsCompareModel, Bu
       {
         name: BuoyancyBasicsStrings.screen.compareStringProperty,
         backgroundColorProperty: DensityBuoyancyCommonColors.skyBottomProperty,
-        homeScreenIcon: new ScreenIcon( BuoyancyBasicsExploreScreenView.getBuoyancyBasicsExploreIcon(), {
+        homeScreenIcon: new ScreenIcon( BuoyancyBasicsCompareScreenView.getBuoyancyBasicsCompareIcon(), {
           maxIconWidthProportion: 1,
           maxIconHeightProportion: 1
         } ),
