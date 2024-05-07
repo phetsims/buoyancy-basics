@@ -14,6 +14,7 @@ import BuoyancyBasicsCompareModel from '../../../density-buoyancy-common/js/buoy
 import BuoyancyBasicsCompareScreenView from '../../../density-buoyancy-common/js/buoyancy-basics/view/BuoyancyBasicsCompareScreenView.js';
 import BuoyancyBasicsStrings from '../BuoyancyBasicsStrings.js';
 import ScreenIcon from '../../../joist/js/ScreenIcon.js';
+import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
 
 export default class CompareScreen extends Screen<BuoyancyBasicsCompareModel, BuoyancyBasicsCompareScreenView> {
   public constructor( tandem: Tandem ) {
@@ -31,7 +32,8 @@ export default class CompareScreen extends Screen<BuoyancyBasicsCompareModel, Bu
           maxIconWidthProportion: 1,
           maxIconHeightProportion: 1
         } ),
-        tandem: tandem
+        tandem: tandem,
+        createKeyboardHelpNode: () => new DensityBuoyancyCommonKeyboardHelpNode( true, false )
       }
     );
   }
