@@ -1,6 +1,6 @@
 {
   "name": "buoyancy-basics",
-  "version": "1.0.0-dev.0",
+  "version": "1.0.0-dev.1",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
@@ -27,8 +27,7 @@
       "phet-io",
       "adapted-from-phet"
     ],
-    "phet-io": {
-    },
+    "phet-io": {},
     "supportsOutputJS": true,
     "simFeatures": {
       "supportsInteractiveDescription": true,
