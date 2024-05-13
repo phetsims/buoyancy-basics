@@ -33,7 +33,7 @@ export default class CompareScreen extends Screen<BuoyancyBasicsCompareModel, Bu
           maxIconHeightProportion: 1
         } ),
         tandem: tandem,
-        createKeyboardHelpNode: () => new DensityBuoyancyCommonKeyboardHelpNode( true, false )
+        createKeyboardHelpNode: () => new DensityBuoyancyCommonKeyboardHelpNode( true, true )
       }
     );
   }
