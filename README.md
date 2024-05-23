@@ -1,7 +1,7 @@
-Buoyancy Basics
+Buoyancy: Basics
 ================
 
-"Buoyancy Basics" is an educational simulation in HTML5, by <a href="https://phet.colorado.edu/" target="_blank">PhET
+"Buoyancy: Basics" is an educational simulation in HTML5, by <a href="https://phet.colorado.edu/" target="_blank">PhET
 Interactive Simulations</a>
 at the University of Colorado Boulder.
 
