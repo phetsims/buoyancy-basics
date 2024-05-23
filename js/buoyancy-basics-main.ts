@@ -22,8 +22,8 @@ simLauncher.launch( () => {
   const titleStringProperty = BuoyancyBasicsStrings[ 'buoyancy-basics' ].titleStringProperty;
 
   const screens = [
-    new ExploreScreen( Tandem.ROOT.createTandem( 'exploreScreen' ) ),
-    new CompareScreen( Tandem.ROOT.createTandem( 'compareScreen' ) )
+    new CompareScreen( Tandem.ROOT.createTandem( 'compareScreen' ) ),
+    new ExploreScreen( Tandem.ROOT.createTandem( 'exploreScreen' ) )
   ];
 
   const options: SimOptions = {
