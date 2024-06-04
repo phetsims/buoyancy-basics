@@ -35,6 +35,7 @@
       "phet": {
         "requirejsNamespace": "BUOYANCY_BASICS",
         "phetLibs": [
+          "buoyancy",
           "density-buoyancy-common",
           "mobius"
         ],
@@ -59,7 +60,7 @@
         },
         "screenNameKeys": [
           "BUOYANCY_BASICS/screen.explore",
-          "BUOYANCY_BASICS/screen.compare"
+          "BUOYANCY/screen.compare"
         ]
       },
       "eslintConfig": {
@@ -86,6 +87,10 @@
     };
   window.phet.chipper.stringRepos =
     [
+      {
+        "repo": "buoyancy",
+        "requirejsNamespace": "BUOYANCY"
+      },
       {
         "repo": "buoyancy-basics",
         "requirejsNamespace": "BUOYANCY_BASICS"

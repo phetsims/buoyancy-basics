@@ -14,7 +14,6 @@ type StringsType = {
   };
   'screen': {
     'exploreStringProperty': LocalizedStringProperty;
-    'compareStringProperty': LocalizedStringProperty;
   }
 };
 
