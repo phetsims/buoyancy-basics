@@ -33,7 +33,8 @@
     "supportsOutputJS": true,
     "simFeatures": {
       "supportsInteractiveDescription": true,
-      "supportsDynamicLocale": true
+      "supportsDynamicLocale": true,
+      "supportsSound": true
     },
     "screenNameKeys": [
       "BUOYANCY_BASICS/screen.explore",
