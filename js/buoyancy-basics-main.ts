@@ -28,7 +28,6 @@ simLauncher.launch( () => {
 
   const options: SimOptions = {
 
-    //TODO fill in credits, all of these fields are optional, see joist.CreditsNode https://github.com/phetsims/buoyancy-basics/issues/3
     credits: {
       leadDesign: '',
       softwareDevelopment: '',
