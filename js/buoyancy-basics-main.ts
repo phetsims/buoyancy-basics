@@ -28,7 +28,7 @@ simLauncher.launch( () => {
 
   const options: SimOptions = {
 
-    // TODO: Add credits, see https://github.com/phetsims/density-buoyancy-common/issues/317
+    // TODO: Add credits, see https://github.com/phetsims/density-buoyancy-common/issues/171
     credits: {
       leadDesign: '',
       softwareDevelopment: '',
