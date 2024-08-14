@@ -28,7 +28,7 @@
       "adapted-from-phet"
     ],
     "phet-io": {
-      "compareDesignedAPIChanges": false
+      "compareDesignedAPIChanges": true
     },
     "supportsOutputJS": true,
     "simFeatures": {

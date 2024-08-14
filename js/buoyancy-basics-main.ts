@@ -36,7 +36,9 @@ simLauncher.launch( () => {
           createContent: tandem => new DensityBuoyancyCommonPreferencesNode( { tandem: tandem } )
         } ]
       }
-    } )
+    } ),
+
+    phetioDesigned: true
   };
 
   const sim = new Sim( titleStringProperty, screens, options );
