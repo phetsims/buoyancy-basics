@@ -23,9 +23,8 @@
     "simulation": true,
     "runnable": true,
     "supportedBrands": [
-      "phet",
       "phet-io",
-      "adapted-from-phet"
+      "phet"
     ],
     "phet-io": {
       "compareDesignedAPIChanges": true
