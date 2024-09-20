@@ -61,7 +61,7 @@
         },
         "parserOptions": {
           "project": [
-            "../buoyancy-basics/tsconfig.json"
+            "../chipper/tsconfig/eslint-all/tsconfig.json"
           ]
         }
       }
