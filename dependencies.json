@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "buoyancy-basics": {
-    "sha": "234efc8949967f5cfd4360751c3692378d167705",
+    "sha": "46f32b468880eb70f82614e3744185cd6e8bc225",
     "branch": "1.2"
   },
   "chipper": {
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "density-buoyancy-common": {
-    "sha": "ec352162328ca658d19b12cfeb7a99ebbb8958be",
+    "sha": "9d78cf305b7977379533684f12a0f4399af632bb",
     "branch": "HEAD"
   },
   "dot": {
