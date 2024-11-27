@@ -6,15 +6,15 @@
  * @author Michael Kauzmann (PhET Interactive Simulations)
  */
 
-import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';
-import Screen from '../../../joist/js/Screen.js';
-import Tandem from '../../../tandem/js/Tandem.js';
-import buoyancyBasics from '../buoyancyBasics.js';
 import BuoyancyBasicsExploreModel from '../../../density-buoyancy-common/js/buoyancy-basics/model/BuoyancyBasicsExploreModel.js';
 import BuoyancyBasicsExploreScreenView from '../../../density-buoyancy-common/js/buoyancy-basics/view/BuoyancyBasicsExploreScreenView.js';
-import BuoyancyBasicsStrings from '../BuoyancyBasicsStrings.js';
-import ScreenIcon from '../../../joist/js/ScreenIcon.js';
+import DensityBuoyancyCommonColors from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonColors.js';
 import DensityBuoyancyCommonKeyboardHelpNode from '../../../density-buoyancy-common/js/common/view/DensityBuoyancyCommonKeyboardHelpNode.js';
+import Screen from '../../../joist/js/Screen.js';
+import ScreenIcon from '../../../joist/js/ScreenIcon.js';
+import Tandem from '../../../tandem/js/Tandem.js';
+import buoyancyBasics from '../buoyancyBasics.js';
+import BuoyancyBasicsStrings from '../BuoyancyBasicsStrings.js';
 
 export default class ExploreScreen extends Screen<BuoyancyBasicsExploreModel, BuoyancyBasicsExploreScreenView> {
   public constructor( tandem: Tandem ) {
