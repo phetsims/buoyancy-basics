@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "buoyancy-basics": {
-    "sha": "4739fadc96d85061c45015444e33c0eaf7e0fd3d",
+    "sha": "25a8558c8ec9a76440aa6858fc1debdf441be354",
     "branch": "1.2"
   },
   "chipper": {
@@ -65,7 +65,7 @@
     "branch": "HEAD"
   },
   "phetcommon": {
-    "sha": "54b41ebbdddd743650d557910ec33b46b2b10317",
+    "sha": "13c54ad3ef0bf2c9e6dceacdd014a4fcc2422775",
     "branch": "HEAD"
   },
   "phetmarks": {
