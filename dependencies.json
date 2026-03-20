@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "buoyancy-basics": {
-    "sha": "8fdc77a8d42f4c4a0126f1db36a858350dd34082",
+    "sha": "7c99a80b5c60b700fd821015c6296082b63dbc81",
     "branch": "1.2"
   },
   "chipper": {
@@ -33,7 +33,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "7627b37ae645a87298154ecd188a844b5209cf4c",
+    "sha": "5772f17b57c17db4bf7da79b586dda8cbe9faf47",
     "branch": "HEAD"
   },
   "kite": {
