@@ -1,5 +1,5 @@
 {
-  "comment": "# buoyancy-basics 1.2.8 Fri Feb 06 2026 14:20:57 GMT-0500 (Eastern Standard Time)",
+  "comment": "# buoyancy-basics 1.2.9-rc.1 Fri Mar 20 2026 22:22:22 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "4eaabfefb0b88b213e98b9c7f32d6c570c3fc122",
     "branch": "HEAD"
@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "buoyancy-basics": {
-    "sha": "7c99a80b5c60b700fd821015c6296082b63dbc81",
+    "sha": "5d9b75b1dffd6fde9722020c17c181b6c8707b44",
     "branch": "1.2"
   },
   "chipper": {
