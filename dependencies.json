@@ -9,7 +9,7 @@
     "branch": "HEAD"
   },
   "brand": {
-    "sha": "d67ab093dc4d8ee20e108771578750aac8aa5744",
+    "sha": "6ddb762ea5e16aea6164b330daae33864f51cfab",
     "branch": "HEAD"
   },
   "buoyancy": {
@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "buoyancy-basics": {
-    "sha": "6d6e1b25b13692e4e89ac0caf0c6f870b39d018f",
+    "sha": "b133fc9edc41aaefd628195124fee50e637a9eef",
     "branch": "1.2"
   },
   "chipper": {
